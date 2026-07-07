@@ -1,0 +1,22 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+plugins {
+    alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.library) apply false
+    alias(libs.plugins.kotlin.android) apply false
+}
+
+ext {
+    compileSdkVersion = 36
+
+    javaSourceVersion = JavaVersion.VERSION_17
+    javaTargetVersion = JavaVersion.VERSION_17
+
+
+}
+allprojects {
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile.class).configureEach {
+        kotlinOptions {
+            jvmTarget = "17"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+[
+{
+  "message": "Start JSON generation. Platform version: 21 min SDK version: x86_64",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|x86_64"
+},
+{
+  "message": "JSON \u0027D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\build\\.cxx\\Debug\\3o324vt3\\x86_64\\android_gradle_build.json\u0027 was up-to-date",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|x86_64"
+},
+{
+  "message": "JSON generation completed without problems",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|x86_64"
+}
+]

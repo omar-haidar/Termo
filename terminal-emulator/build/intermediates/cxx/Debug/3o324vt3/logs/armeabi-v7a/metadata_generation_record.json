@@ -1,0 +1,17 @@
+[
+{
+  "message": "Start JSON generation. Platform version: 21 min SDK version: armeabi-v7a",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "JSON \u0027D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\build\\.cxx\\Debug\\3o324vt3\\armeabi-v7a\\android_gradle_build.json\u0027 was up-to-date",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "JSON generation completed without problems",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+}
+]

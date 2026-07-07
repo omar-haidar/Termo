@@ -1,0 +1,18 @@
+@echo off
+"D:\\Workspace\\.env\\android_sdk\\ndk\\29.0.14206865\\ndk-build.cmd" ^
+  "NDK_PROJECT_PATH=null" ^
+  "APP_BUILD_SCRIPT=D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\src\\main\\jni\\Android.mk" ^
+  "APP_ABI=x86" ^
+  "NDK_ALL_ABIS=x86" ^
+  "NDK_DEBUG=1" ^
+  "APP_PLATFORM=android-26" ^
+  "NDK_OUT=D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\build\\intermediates\\cxx\\Debug\\3o67152d/obj" ^
+  "NDK_LIBS_OUT=D:\\Workspace\\IDE\\IdeaProjects\\XTerminal\\terminal-emulator\\build\\intermediates\\cxx\\Debug\\3o67152d/lib" ^
+  "APP_CFLAGS+=-std=c11" ^
+  "APP_CFLAGS+=-Wall" ^
+  "APP_CFLAGS+=-Wextra" ^
+  "APP_CFLAGS+=-Werror" ^
+  "APP_CFLAGS+=-Os" ^
+  "APP_CFLAGS+=-fno-stack-protector" ^
+  "APP_CFLAGS+=-Wl,--gc-sections" ^
+  termux

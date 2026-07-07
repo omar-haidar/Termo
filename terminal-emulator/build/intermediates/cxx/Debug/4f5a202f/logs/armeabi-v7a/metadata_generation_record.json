@@ -1,0 +1,57 @@
+[
+{
+  "message": "Start JSON generation. Platform version: 26 min SDK version: armeabi-v7a",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "rebuilding JSON D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\build\\.cxx\\Debug\\4f5a202f\\armeabi-v7a\\android_gradle_build.json due to:",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "- no fingerprint file, will remove stale configuration folder",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "removing stale contents from \u0027D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\build\\.cxx\\Debug\\4f5a202f\\armeabi-v7a\u0027",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "created folder \u0027D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\build\\.cxx\\Debug\\4f5a202f\\armeabi-v7a\u0027",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "executing ndkBuild @echo off\n\"D:\\\\Workspace\\\\.env\\\\android_sdk\\\\ndk\\\\29.0.13846066\\\\ndk-build.cmd\" ^\n  \"NDK_PROJECT_PATH\u003dnull\" ^\n  \"APP_BUILD_SCRIPT\u003dD:\\\\Workspace\\\\IDE\\\\IdeaProjects\\\\Xed-Editor\\\\terminal-emulator\\\\src\\\\main\\\\jni\\\\Android.mk\" ^\n  \"APP_ABI\u003darmeabi-v7a\" ^\n  \"NDK_ALL_ABIS\u003darmeabi-v7a\" ^\n  \"NDK_DEBUG\u003d1\" ^\n  \"APP_PLATFORM\u003dandroid-26\" ^\n  \"NDK_OUT\u003dD:\\\\Workspace\\\\IDE\\\\IdeaProjects\\\\Xed-Editor\\\\terminal-emulator\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\4f5a202f/obj\" ^\n  \"NDK_LIBS_OUT\u003dD:\\\\Workspace\\\\IDE\\\\IdeaProjects\\\\Xed-Editor\\\\terminal-emulator\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\4f5a202f/lib\" ^\n  \"APP_CFLAGS+\u003d-std\u003dc11\" ^\n  \"APP_CFLAGS+\u003d-Wall\" ^\n  \"APP_CFLAGS+\u003d-Wextra\" ^\n  \"APP_CFLAGS+\u003d-Werror\" ^\n  \"APP_CFLAGS+\u003d-Os\" ^\n  \"APP_CFLAGS+\u003d-fno-stack-protector\" ^\n  \"APP_CFLAGS+\u003d-Wl,--gc-sections\" ^\n  \"APP_SHORT_COMMANDS\u003dfalse\" ^\n  \"LOCAL_SHORT_COMMANDS\u003dfalse\" ^\n  -B ^\n  -n\n",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "@echo off\n\"D:\\\\Workspace\\\\.env\\\\android_sdk\\\\ndk\\\\29.0.13846066\\\\ndk-build.cmd\" ^\n  \"NDK_PROJECT_PATH\u003dnull\" ^\n  \"APP_BUILD_SCRIPT\u003dD:\\\\Workspace\\\\IDE\\\\IdeaProjects\\\\Xed-Editor\\\\terminal-emulator\\\\src\\\\main\\\\jni\\\\Android.mk\" ^\n  \"APP_ABI\u003darmeabi-v7a\" ^\n  \"NDK_ALL_ABIS\u003darmeabi-v7a\" ^\n  \"NDK_DEBUG\u003d1\" ^\n  \"APP_PLATFORM\u003dandroid-26\" ^\n  \"NDK_OUT\u003dD:\\\\Workspace\\\\IDE\\\\IdeaProjects\\\\Xed-Editor\\\\terminal-emulator\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\4f5a202f/obj\" ^\n  \"NDK_LIBS_OUT\u003dD:\\\\Workspace\\\\IDE\\\\IdeaProjects\\\\Xed-Editor\\\\terminal-emulator\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\4f5a202f/lib\" ^\n  \"APP_CFLAGS+\u003d-std\u003dc11\" ^\n  \"APP_CFLAGS+\u003d-Wall\" ^\n  \"APP_CFLAGS+\u003d-Wextra\" ^\n  \"APP_CFLAGS+\u003d-Werror\" ^\n  \"APP_CFLAGS+\u003d-Os\" ^\n  \"APP_CFLAGS+\u003d-fno-stack-protector\" ^\n  \"APP_CFLAGS+\u003d-Wl,--gc-sections\" ^\n  \"APP_SHORT_COMMANDS\u003dfalse\" ^\n  \"LOCAL_SHORT_COMMANDS\u003dfalse\" ^\n  -B ^\n  -n\n",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "Received process result: 0",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "parse and convert ndk-build output to build configuration JSON",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "done executing ndkBuild",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+},
+{
+  "message": "JSON generation completed without problems",
+  "file": "D:\\Workspace\\IDE\\IdeaProjects\\Xed-Editor\\terminal-emulator\\src\\main\\jni\\Android.mk",
+  "tag": "debug|armeabi-v7a"
+}
+]

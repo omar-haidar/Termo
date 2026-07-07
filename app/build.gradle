@@ -1,0 +1,46 @@
+plugins {
+    alias(libs.plugins.android.application)
+    alias(libs.plugins.kotlin.android)
+}
+
+android {
+    namespace 'dev.omar.termo'
+    compileSdk = rootProject.ext.compileSdkVersion
+
+
+    defaultConfig {
+        applicationId "dev.omar.termo"
+        minSdk 23
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+
+    compileOptions {
+        sourceCompatibility = rootProject.ext.javaSourceVersion
+        targetCompatibility = rootProject.ext.javaTargetVersion
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    buildFeatures {
+        viewBinding = true
+        buildConfig = true
+    }
+}
+
+dependencies {
+    implementation libs.activity.ktx
+    implementation libs.appcompat
+    implementation libs.constraintlayout
+    implementation libs.material
+
+    implementation libs.utilcodex
+
+    implementation(project(":terminal-view"))
+    implementation(project(":terminal-emulator"))
+    implementation(project(":common"))
+}
