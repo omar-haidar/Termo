@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "dev.omar.termo"
-        minSdk 23
+        minSdk 24
         targetSdk 36
         versionCode 1
         versionName "1.0"
@@ -19,6 +19,7 @@ android {
 
 
     compileOptions {
+
         sourceCompatibility = rootProject.ext.javaSourceVersion
         targetCompatibility = rootProject.ext.javaTargetVersion
     }
@@ -39,7 +40,6 @@ dependencies {
     implementation libs.material
 
     implementation libs.utilcodex
-
     implementation(project(":terminal-view"))
     implementation(project(":terminal-emulator"))
     implementation(project(":common"))
