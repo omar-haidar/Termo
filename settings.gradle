@@ -8,7 +8,9 @@ pluginManagement {
             }
         }
         mavenCentral()
+        mavenLocal()
         gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
     }
 }
 plugins {
@@ -17,13 +19,13 @@ plugins {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven { url 'https://jitpack.io' }
         google()
         mavenCentral()
+        mavenLocal()
     }
 }
 
 rootProject.name = "Termo"
 include ':app'
-include ':terminal-view'
-include ':terminal-emulator'
 include ':common'

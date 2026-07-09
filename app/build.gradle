@@ -34,13 +34,15 @@ android {
 }
 
 dependencies {
-    implementation libs.activity.ktx
     implementation libs.appcompat
     implementation libs.constraintlayout
     implementation libs.material
 
     implementation libs.utilcodex
-    implementation(project(":terminal-view"))
-    implementation(project(":terminal-emulator"))
+    implementation libs.termux.view
+    implementation libs.termux.emulator
+
+    implementation("com.github.hasanelfalakiy:flashbar:2.0.0")
+
     implementation(project(":common"))
 }

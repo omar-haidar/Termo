@@ -24,6 +24,6 @@ android {
 dependencies {
     implementation libs.appcompat
     implementation libs.material
-    compileOnly(project(":terminal-emulator"))
-    compileOnly(project(":terminal-view"))
+    compileOnly libs.termux.view
+    compileOnly libs.termux.emulator
 }
