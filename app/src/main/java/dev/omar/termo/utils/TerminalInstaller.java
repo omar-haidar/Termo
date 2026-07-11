@@ -3,8 +3,10 @@ package dev.omar.termo.utils;
 import android.content.Context;
 
 import android.os.SystemClock;
+import com.blankj.utilcode.util.FileUtils;
 import com.blankj.utilcode.util.ResourceUtils;
 
+import com.blankj.utilcode.util.ZipUtils;
 import dev.omar.common.models.Result;
 import dev.omar.common.utils.XEnvironment;
 
@@ -19,9 +21,9 @@ public class TerminalInstaller {
 
     public static CompletableFuture<Result> checkAndInstallTerminal(
             Context context, ProgressListener listener) {
-        /*if (new File(XEnvironment.BUSYBOX_PATH).exists()) {
+        if (new File(XEnvironment.PREFIX,".packages_installed").exists()) {
             return CompletableFuture.completedFuture(Result.success());
-        }*/
+        }
         return installBusybox(context, listener)
                 .thenCompose(
                         (result) -> {
@@ -90,13 +92,16 @@ public class TerminalInstaller {
                             if (listener != null) {
                                 listener.onProgressUpdate("Start user.tar.xz extracting...", 2);
                             }
-                            String command = XEnvironment.BUSYBOX_PATH
+        
+                            /* String command = XEnvironment.BUSYBOX_PATH
                                             + " unzip "
                                             + " -d "
                                             + XEnvironment.PREFIX
                                             + file.getAbsolutePath();
                             Runtime.getRuntime().exec(command).waitFor();
-
+                            */
+                            ZipUtils.unzipFile(file,new File(XEnvironment.PREFIX));
+                            FileUtils.createOrExistsFile(new File(XEnvironment.PREFIX,".packages_installed"));
                             return Result.success();
                         } catch (Exception err) {
                             return Result.failure(
