@@ -24,6 +24,8 @@ android {
 dependencies {
     implementation libs.appcompat
     implementation libs.material
+    
+    compileOnly libs.utilcodex
     compileOnly libs.termux.view
     compileOnly libs.termux.emulator
 }

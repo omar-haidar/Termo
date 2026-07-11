@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId "dev.omar.termo"
         minSdk 24
-        targetSdk 36
+        targetSdk 28
         versionCode 1
         versionName "1.0"
 
@@ -37,7 +37,6 @@ dependencies {
     implementation libs.appcompat
     implementation libs.constraintlayout
     implementation libs.material
-
     implementation libs.utilcodex
     implementation libs.termux.view
     implementation libs.termux.emulator
